@@ -9,7 +9,7 @@ javascript:(function(){
                 var buffer = ""
             }
             let j = Math.floor((Math.random() * 3))
-            radio = document.getElementById(ctl00_ContentPlaceHolder1_Survey_GridView_ctl${buffer}${i}_RB_Satisfaction_${j});
+            radio = document.getElementById(`ctl00_ContentPlaceHolder1_Survey_GridView_ctl${buffer}${i}_RB_Satisfaction_${j}`);
             radio.checked = true;
         };
     }
@@ -23,7 +23,7 @@ javascript:(function(){
                 var buffer = ""
             }
             let j = Math.floor((Math.random() * 3))
-            radio = document.getElementById(ctl00_ContentPlaceHolder1_CourCore_GridView_ctl${buffer}${i}_Relation_${j});
+            radio = document.getElementById(`ctl00_ContentPlaceHolder1_CourCore_GridView_ctl${buffer}${i}_Relation_${j}`);
             radio.checked = true;
         };
     }
